@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <h1>Simple Loan Calculator</h1>
+
+  <section class="calculator">
+    <h2>Simple Loan Calculator</h2>
+    <div>
+      <h3>Loan Amount</h3>
+      <input type="text" id="amount">
+    </div>
+    <div>
+      <h3>Number of years</h3>
+      <input type="text" id="years">
+    </div>
+    <input type="button" value="calculate" id="btn">
+  </section>
+
+  <section class="result">
+    <dl>
+      <dt>Loan Amount</dt>
+      <dd id="loanamount"></dd>
+      <dt>Interest Rates</dt>
+      <dd id="interestrates"></dd>
+      <dt>Number of Years</dt>
+      <dd id="numofyears"></dd>
+      <dt>Montly Payments</dt>
+      <dd id="montlypayments"></dd>
+    </dl>    
+  </section>
+  <script src="js/index.js"></script>
+</body>
+</html>
